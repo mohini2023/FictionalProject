@@ -1,0 +1,49 @@
+/* LandingPage.css */
+*{
+  font-family: cursive;
+}
+  
+  nav {
+    background-color: #f5f5f5;
+    padding: 10px;
+    height: 10vh;
+    width:100%
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  .content {
+    margin-top: 50px;
+  }
+  .landing-page{
+   
+    text-align:center;
+    
+  }
+  .content{
+    background-image: url('https://i.gifer.com/origin/af/af3898c603b08e23a57e91666ff0fab1_w200.webp');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+  }
+   .link{
+    font-size: 30px;
+    font-family: cursive;
+   }
+
+
+   .btn{
+    font-size: 15px;
+    font-family: cursive;
+    text-decoration: none;
+
+   }
